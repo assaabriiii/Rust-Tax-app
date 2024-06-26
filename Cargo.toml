@@ -1,0 +1,20 @@
+[package]
+name = "incomeapp"
+version = "0.1.0"
+authors = ["B <amirsbry1942@gmail.com>"]
+edition = "2021"
+build = "build.rs"
+description = "A desktop app for incomes shits blah blah blah ..."
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+slint = "1.6"
+
+[build-dependencies]
+slint-build = "1.6"
+
+[package.metadata.bundle]
+name = "Income Devider"
+identifier = "io.github.assaabriiii.Graphical-binary-tree"
+icon = ["./icon.png"]
